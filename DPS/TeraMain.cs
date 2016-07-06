@@ -212,7 +212,11 @@ namespace DPS {
         // pbRing01
         //
         private void pbRing01_DragEnter (object sender, DragEventArgs e) {
-
+            if (e.Data.GetDataPresent(DataFormats.Bitmap)) {
+                e.Effect = DragDropEffects.Copy;
+            } else {
+                e.Effect = DragDropEffects.None;
+            }
         }
         private void pbRing01_DragDrop (object sender, DragEventArgs e) {
             pbRing01.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
