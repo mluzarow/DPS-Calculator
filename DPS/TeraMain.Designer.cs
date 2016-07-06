@@ -190,6 +190,8 @@
             this.pbEarring00.Size = new System.Drawing.Size(40, 40);
             this.pbEarring00.TabIndex = 1;
             this.pbEarring00.TabStop = false;
+            this.pbEarring00.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbEarring00_DragDrop);
+            this.pbEarring00.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbEarring00_DragEnter);
             // 
             // pbGemAcc03
             // 
@@ -340,6 +342,8 @@
             this.pbWeapon.Size = new System.Drawing.Size(40, 40);
             this.pbWeapon.TabIndex = 3;
             this.pbWeapon.TabStop = false;
+            this.pbWeapon.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbWeapon_DragDrop);
+            this.pbWeapon.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbWeapon_DragEnter);
             // 
             // pbGemAtt00
             // 
@@ -350,6 +354,8 @@
             this.pbGemAtt00.Size = new System.Drawing.Size(30, 30);
             this.pbGemAtt00.TabIndex = 4;
             this.pbGemAtt00.TabStop = false;
+            this.pbGemAtt00.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAtt00_DragDrop);
+            this.pbGemAtt00.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAtt00_DragEnter);
             // 
             // pbGemAtt01
             // 
@@ -360,6 +366,8 @@
             this.pbGemAtt01.Size = new System.Drawing.Size(30, 30);
             this.pbGemAtt01.TabIndex = 5;
             this.pbGemAtt01.TabStop = false;
+            this.pbGemAtt01.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAtt01_DragDrop);
+            this.pbGemAtt01.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAtt01_DragEnter);
             // 
             // pbGemAtt02
             // 
@@ -370,6 +378,8 @@
             this.pbGemAtt02.Size = new System.Drawing.Size(30, 30);
             this.pbGemAtt02.TabIndex = 6;
             this.pbGemAtt02.TabStop = false;
+            this.pbGemAtt02.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAtt02_DragDrop);
+            this.pbGemAtt02.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAtt02_DragEnter);
             // 
             // pbGemAtt03
             // 
@@ -380,6 +390,8 @@
             this.pbGemAtt03.Size = new System.Drawing.Size(30, 30);
             this.pbGemAtt03.TabIndex = 7;
             this.pbGemAtt03.TabStop = false;
+            this.pbGemAtt03.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAtt03_DragDrop);
+            this.pbGemAtt03.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAtt03_DragEnter);
             // 
             // pbBoots
             // 
@@ -390,6 +402,8 @@
             this.pbBoots.Size = new System.Drawing.Size(40, 40);
             this.pbBoots.TabIndex = 8;
             this.pbBoots.TabStop = false;
+            this.pbBoots.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbBoots_DragDrop);
+            this.pbBoots.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbBoots_DragEnter);
             // 
             // pbGemAcc02
             // 
@@ -401,6 +415,8 @@
             this.pbGemAcc02.Size = new System.Drawing.Size(30, 30);
             this.pbGemAcc02.TabIndex = 9;
             this.pbGemAcc02.TabStop = false;
+            this.pbGemAcc02.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAcc02_DragDrop);
+            this.pbGemAcc02.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAcc02_DragEnter);
             // 
             // contMgemAcc02
             // 
@@ -538,6 +554,8 @@
             this.pbRing00.Size = new System.Drawing.Size(40, 40);
             this.pbRing00.TabIndex = 10;
             this.pbRing00.TabStop = false;
+            this.pbRing00.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbRing00_DragDrop);
+            this.pbRing00.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbRing00_DragEnter);
             // 
             // pbEarring01
             // 
@@ -548,6 +566,8 @@
             this.pbEarring01.Size = new System.Drawing.Size(40, 40);
             this.pbEarring01.TabIndex = 11;
             this.pbEarring01.TabStop = false;
+            this.pbEarring01.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbEarring01_DragDrop);
+            this.pbEarring01.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbEarring01_DragEnter);
             // 
             // pbGemAcc00
             // 
@@ -558,6 +578,8 @@
             this.pbGemAcc00.Size = new System.Drawing.Size(30, 30);
             this.pbGemAcc00.TabIndex = 12;
             this.pbGemAcc00.TabStop = false;
+            this.pbGemAcc00.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAcc00_DragDrop);
+            this.pbGemAcc00.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAcc00_DragEnter);
             // 
             // pbGemDef03
             // 
@@ -568,6 +590,8 @@
             this.pbGemDef03.Size = new System.Drawing.Size(30, 30);
             this.pbGemDef03.TabIndex = 16;
             this.pbGemDef03.TabStop = false;
+            this.pbGemDef03.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemDef03_DragDrop);
+            this.pbGemDef03.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemDef03_DragEnter);
             // 
             // pbGemDef02
             // 
@@ -578,6 +602,8 @@
             this.pbGemDef02.Size = new System.Drawing.Size(30, 30);
             this.pbGemDef02.TabIndex = 15;
             this.pbGemDef02.TabStop = false;
+            this.pbGemDef02.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemDef02_DragDrop);
+            this.pbGemDef02.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemDef02_DragEnter);
             // 
             // pbGemDef01
             // 
@@ -588,6 +614,8 @@
             this.pbGemDef01.Size = new System.Drawing.Size(30, 30);
             this.pbGemDef01.TabIndex = 14;
             this.pbGemDef01.TabStop = false;
+            this.pbGemDef01.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemDef01_DragDrop);
+            this.pbGemDef01.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemDef01_DragEnter);
             // 
             // pbGemDef00
             // 
@@ -598,6 +626,8 @@
             this.pbGemDef00.Size = new System.Drawing.Size(30, 30);
             this.pbGemDef00.TabIndex = 13;
             this.pbGemDef00.TabStop = false;
+            this.pbGemDef00.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemDef00_DragDrop);
+            this.pbGemDef00.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemDef00_DragEnter);
             // 
             // pbGloves
             // 
@@ -608,6 +638,8 @@
             this.pbGloves.Size = new System.Drawing.Size(40, 40);
             this.pbGloves.TabIndex = 18;
             this.pbGloves.TabStop = false;
+            this.pbGloves.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGloves_DragDrop);
+            this.pbGloves.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGloves_DragEnter);
             // 
             // pbArmor
             // 
@@ -618,6 +650,8 @@
             this.pbArmor.Size = new System.Drawing.Size(40, 40);
             this.pbArmor.TabIndex = 17;
             this.pbArmor.TabStop = false;
+            this.pbArmor.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbArmor_DragDrop);
+            this.pbArmor.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbArmor_DragEnter);
             // 
             // pbRing01
             // 
@@ -628,6 +662,8 @@
             this.pbRing01.Size = new System.Drawing.Size(40, 40);
             this.pbRing01.TabIndex = 19;
             this.pbRing01.TabStop = false;
+            this.pbRing01.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbRing01_DragDrop);
+            this.pbRing01.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbRing01_DragEnter);
             // 
             // pbGemAcc01
             // 
@@ -638,6 +674,8 @@
             this.pbGemAcc01.Size = new System.Drawing.Size(30, 30);
             this.pbGemAcc01.TabIndex = 20;
             this.pbGemAcc01.TabStop = false;
+            this.pbGemAcc01.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAcc01_DragDrop);
+            this.pbGemAcc01.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAcc01_DragEnter);
             // 
             // pbNecklace
             // 
@@ -648,6 +686,8 @@
             this.pbNecklace.Size = new System.Drawing.Size(40, 40);
             this.pbNecklace.TabIndex = 21;
             this.pbNecklace.TabStop = false;
+            this.pbNecklace.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbNecklace_DragDrop);
+            this.pbNecklace.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbNecklace_DragEnter);
             // 
             // pbBrooch
             // 
@@ -658,6 +698,8 @@
             this.pbBrooch.Size = new System.Drawing.Size(40, 40);
             this.pbBrooch.TabIndex = 22;
             this.pbBrooch.TabStop = false;
+            this.pbBrooch.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbBrooch_DragDrop);
+            this.pbBrooch.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbBrooch_DragEnter);
             // 
             // pbInner
             // 
@@ -668,6 +710,8 @@
             this.pbInner.Size = new System.Drawing.Size(40, 40);
             this.pbInner.TabIndex = 23;
             this.pbInner.TabStop = false;
+            this.pbInner.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbInner_DragDrop);
+            this.pbInner.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbInner_DragEnter);
             // 
             // pbBelt
             // 
@@ -678,6 +722,8 @@
             this.pbBelt.Size = new System.Drawing.Size(40, 40);
             this.pbBelt.TabIndex = 24;
             this.pbBelt.TabStop = false;
+            this.pbBelt.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbBelt_DragDrop);
+            this.pbBelt.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbBelt_DragEnter);
             // 
             // menuStrip1
             // 
