@@ -11,7 +11,7 @@ namespace DPS {
         private class DPS_Data {
             #region Public Fields
             /// <summary>
-            /// The base damage on the target.
+            /// The base damage of the target.
             /// </summary>
             public float damage;
             /// <summary>
@@ -39,8 +39,23 @@ namespace DPS {
             /// </summary>
             public float calcEstimate;
             #endregion Public Fields
-
+            
             #region Constructor
+            /// <summary>
+            /// Full variable constructor.  Will save all variables as well as calculate output via CalculateDamage() upon call.
+            /// </summary>
+            /// <param name="damage">
+            /// The base damage of the target.
+            /// </param>
+            /// <param name="attackSpeed">
+            /// The attacks per second performed by the target.
+            /// </param>
+            /// <param name="critChance">
+            /// The percentage chance the target has of getting a critical hit, per each hit.
+            /// </param>
+            /// <param name="critDamage">
+            /// The critical damage of the target.
+            /// </param>
             public DPS_Data (float damage, float attackSpeed, float critChance, float critDamage) {
                 this.damage = damage;
                 this.attackSpeed = attackSpeed;
@@ -49,26 +64,44 @@ namespace DPS {
 
                 CalculateDamage ();
             }
+            /// <summary>
+            /// Empty constructor.  Won't do anything; just here to be the default.
+            /// </summary>
             public DPS_Data () {
-                // Ain't constructin' nothin'
+                
             }
             #endregion Constructor
 
             #region Public Methods
+            /// <summary>
+            /// Uses internal class values in order to calculate the variables calcDamage, calcCritDamage, and calcEstimate.  Output is saved in the class.
+            /// </summary>
             public void CalculateDamage () {
                 this.calcDamage = this.damage * this.attackSpeed;
                 this.calcCritDamage = this.damage * this.attackSpeed * this.critDamage;
                 this.calcEstimate = (this.damage * this.attackSpeed * (1 - this.critChance)) + (this.damage * this.attackSpeed * this.critChance * this.critDamage);
             }
             #endregion Public Methods
-
         }
         #endregion Structs
 
 
+
         #region Private Variables
+        /// <summary>
+        /// Main instance of the DPS_Data class.
+        /// </summary>
         private DPS_Data dpsData = new DPS_Data ();
+        /// <summary>
+        /// Constantly holding the path to the save data.
+        /// </summary>
+        private string DPS_PATH = Application.StartupPath + "\\Save Data\\";
+        /// <summary>
+        /// Constant hold the default dialog filters.
+        /// </summary>
+        private const string DPS_FILTER = "DPS Meter files (*.dps)|*.dps|All files (*.*)|*.*";
         #endregion Private Variables
+
 
 
         public Form1 () {
@@ -84,6 +117,7 @@ namespace DPS {
             lbl_crit.Text = dpsData.calcCritDamage.ToString ();
             lbl_est.Text = dpsData.calcEstimate.ToString ();
         }
+
 
 
         #region Calculation
@@ -142,14 +176,16 @@ namespace DPS {
         }
         #endregion Calculation
 
+
+
         #region IO
         private void btn_save_Click (object sender, EventArgs e) {
             Stream f = null;
             StreamWriter fw = null;
             SaveFileDialog fs = new SaveFileDialog ();
 
-            fs.InitialDirectory = Application.StartupPath + "\\Save Data\\";
-            fs.Filter = "DPS Meter files (*.dps)|*.dps|All files (*.*)|*.*";
+            fs.InitialDirectory = DPS_PATH;
+            fs.Filter = DPS_FILTER;
             fs.FilterIndex = 1;
             fs.RestoreDirectory = true;
 
@@ -172,8 +208,8 @@ namespace DPS {
             OpenFileDialog fd = new OpenFileDialog ();
             string line = "";
 
-            fd.InitialDirectory = Application.StartupPath + "\\Save Data\\";
-            fd.Filter = "DPS Meter files (*.dps)|*.dps|All files (*.*)|*.*";
+            fd.InitialDirectory = DPS_PATH;
+            fd.Filter = DPS_FILTER;
             fd.FilterIndex = 1;
             fd.RestoreDirectory = true;
 
@@ -204,5 +240,10 @@ namespace DPS {
             }
         }
         #endregion IO
+
+        private void button1_Click (object sender, EventArgs e) {
+            fTeraMain tera = new fTeraMain ();
+            tera.Show ();
+        }
     }
 }

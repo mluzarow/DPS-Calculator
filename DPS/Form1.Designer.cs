@@ -42,6 +42,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_load = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -159,6 +160,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.lbl_est);
             this.groupBox2.Controls.Add(this.lbl_crit);
             this.groupBox2.Controls.Add(this.lbl_raw);
@@ -236,6 +238,16 @@
             this.btn_load.UseVisualStyleBackColor = true;
             this.btn_load.Click += new System.EventHandler(this.btn_load_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(140, 16);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -277,6 +289,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.Button btn_load;
+        private System.Windows.Forms.Button button1;
     }
 }
 

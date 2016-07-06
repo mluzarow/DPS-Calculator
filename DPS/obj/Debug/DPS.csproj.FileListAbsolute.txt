@@ -11,3 +11,4 @@ C:\Users\Mark\documents\visual studio 2015\Projects\DPS\DPS\bin\Debug\DPS.exe.ma
 C:\Users\Mark\documents\visual studio 2015\Projects\DPS\DPS\bin\Debug\DPS.application
 C:\Users\Mark\documents\visual studio 2015\Projects\DPS\DPS\obj\Debug\DPS.exe.manifest
 C:\Users\Mark\documents\visual studio 2015\Projects\DPS\DPS\obj\Debug\DPS.application
+C:\Users\Mark\documents\visual studio 2015\Projects\DPS\DPS\obj\Debug\DPS.fTeraMain.resources
