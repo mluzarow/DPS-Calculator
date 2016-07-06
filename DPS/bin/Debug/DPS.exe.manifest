@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DPS.exe" size="38840">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DPS.exe" size="40376">
       <assemblyIdentity name="DPS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>dwG0yIf4gqU6LM3hh6sZYnS3zgNM+5iz/9LTFMEUGOI=</dsig:DigestValue>
+        <dsig:DigestValue>KEnHUh1XYargTEQ8enLLNN4N882JomP6ELFiVf08JKg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -25,7 +25,7 @@ namespace DPS {
             }
         }
         private void pbGemAcc00_DragDrop (object sender, DragEventArgs e) {
-            pbGemAcc03.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
+            pbGemAcc00.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
         }
         //
         // pbGemAcc01
@@ -38,7 +38,7 @@ namespace DPS {
             }
         }
         private void pbGemAcc01_DragDrop (object sender, DragEventArgs e) {
-            pbGemAcc03.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
+            pbGemAcc01.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
         }
         //
         // pbGemAcc02
@@ -50,7 +50,7 @@ namespace DPS {
             }
         }
         private void pbGemAcc02_DragDrop (object sender, DragEventArgs e) {
-            pbGemAcc03.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
+            pbGemAcc02.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
         }
         //
         // pbGemAcc03
@@ -91,11 +91,6 @@ namespace DPS {
         private void pbGemAtt01_DragDrop (object sender, DragEventArgs e) {
             pbGemAtt01.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
         }
-        #endregion Drag and Drop Processing (Drop)
-
-        private void pictureBox1_MouseDown (object sender, MouseEventArgs e) {
-            pictureBox1.DoDragDrop (pictureBox1.Image, DragDropEffects.Copy | DragDropEffects.Move);
-        }
         //
         // pbGemAtt02
         //
@@ -122,5 +117,13 @@ namespace DPS {
         private void pbGemAtt03_DragDrop (object sender, DragEventArgs e) {
             pbGemAtt03.Image = (Image)e.Data.GetData(DataFormats.Bitmap);
         }
+        #endregion Drag and Drop Processing (Drop)
+
+
+
+        private void pictureBox1_MouseDown (object sender, MouseEventArgs e) {
+            pictureBox1.DoDragDrop (pictureBox1.Image, DragDropEffects.Copy | DragDropEffects.Move);
+        }
+
     }
 }
