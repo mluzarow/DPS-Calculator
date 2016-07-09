@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="DPS.exe.manifest" size="3806">
+    <dependentAssembly dependencyType="install" codebase="DPS.exe.manifest" size="4198">
       <assemblyIdentity name="DPS.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="en" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AcjAK8Pq/o9FDM3n+OWSsW4/w8ftsemcbYqC09L3wPo=</dsig:DigestValue>
+        <dsig:DigestValue>x8J3UWB6WQOinHbo7K9J2juF1hKr/3QrMhD3V6vd1LM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

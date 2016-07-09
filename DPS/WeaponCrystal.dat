@@ -1,0 +1,231 @@
+﻿#
+# Common Bitter
+#
+
+RhombBitter_Common = {
+	name = Bitter
+	type = Rhomb
+	rarity = Common
+	level = 1+
+	image = RhombBitterCommon.png
+	recommended_class = Warrior, Slayer, Berserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 0.54
+	}
+	bonus_secondary = None
+	sell_value = 0.0.19
+}
+
+CabochonBitter_Common = {
+	name = Bitter
+	type = Cabochon
+	rarity = Common
+	level = 11+
+	image = cabochonBitterCommon.png
+	recommended_class = Warrior, Slayer, Bersserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 0.66
+	}
+	bonus_secondary = None
+	sell_value = 0.0.61
+}
+
+HexageBitter_Common = {
+	name = Bitter
+	type = Hexage
+	rarity = Common
+	level = 23+
+	image = hexageBitterCommon.png
+	recommended_class = Warrior, Slayer, Berserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 0.76
+	}
+	bonus_secondary = None
+	sell_value = 0.3.97
+}
+
+PentantBitter_Common = {
+	name = Bitter
+	type = Pentant
+	rarity = Common
+	level = 35+
+	image = pentantBitterCommon.png
+	recommended_class = Warrior, Slayer, Berserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 0.86
+	}
+	bonus_secondary = None
+	sell_value = 0.12.26
+}
+
+ConcachBitter_Common = {
+	name = Bitter
+	type = Concach
+	rarity = Common
+	level = 48+
+	image = concachBitterCommon.png
+	recommended_class = Warrior, Slayer, Berserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 0.98
+	}
+	bonus_secondary = None
+	sell_value = 0.44.56
+}
+
+CruxBitter_Common = {
+	name = Bitter
+	type = Crux
+	rarity = Common
+	level = 58+
+	image = cruxBitterCommon.png
+	recommended_class = Warrior, Slayer, Berserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 1.08
+	}
+	bonus_secondary = None
+	sell_value = 0.80.68
+}
+
+NiveotBitter_Common = {
+	name = Bitter
+	type = Niveot
+	rarity = Common
+	level = 65+
+	image = niveotBitterCommon.png
+	recommended_class = Warrior, Slayer, Berserker, Sorcerer, Archer, Reaper, Gunner, Ninja
+	unique = True
+	bonus_primary = {
+		type = 1
+		value = 1.12
+	}
+	bonus_secondary = None
+	sell_value = 1.20.61
+}
+
+#
+# Common Brilliant
+#
+
+RhombBrilliant_Common = {
+	name = Brilliant
+	type = Rhomb
+	rarity = Common
+	level = 1+
+	image = RhombBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 18
+	}
+	bonus_secondary = None
+	sell_value = 0.0.19
+}
+
+CabochonBrilliant_Common = {
+	name = Brilliant
+	type = Cabochon
+	rarity = Common
+	level = 11+
+	image = cabochonBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 20
+	}
+	bonus_secondary = None
+	sell_value = 0.0.61
+}
+
+HexageBrilliant_Common = {
+	name = Brilliant
+	type = Hexage
+	rarity = Common
+	level = 23+
+	image = hexageBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 23
+	}
+	bonus_secondary = None
+	sell_value = 0.3.97
+}
+
+PentantBrilliant_Common = {
+	name = Brilliant
+	type = Pentant
+	rarity = Common
+	level = 35+
+	image = pentantBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 27
+	}
+	bonus_secondary = None
+	sell_value = 0.12.26
+}
+
+ConcachBrilliant_Common = {
+	name = Brilliant
+	type = Concach
+	rarity = Common
+	level = 48+
+	image = concachBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 29
+	}
+	bonus_secondary = None
+	sell_value = 0.44.56
+}
+
+CruxBrilliant_Common = {
+	name = Brilliant
+	type = Crux
+	rarity = Common
+	level = 58+
+	image = cruxBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 30
+	}
+	bonus_secondary = None
+	sell_value = 0.80.68
+}
+
+NiveotBrilliant_Common = {
+	name = Brilliant
+	type = Niveot
+	rarity = Common
+	level = 65+
+	image = niveotBrilliantCommon.png
+	recommended_class = Priest, Mystic
+	unique = False
+	bonus_primary = {
+		type = 2
+		value = 31
+	}
+	bonus_secondary = None
+	sell_value = 1.20.61
+}

@@ -7,11 +7,25 @@ using System.Windows.Forms;
 
 namespace DPS {
     public partial class fTeraMain : Form {
+        private Dictionary<string, PictureBox> ItemDict = new Dictionary<string, PictureBox> ();
         public fTeraMain () {
             InitializeComponent();
+
+            loadListView ();
+            PictureBox CrystalZyrkUncommonGrounding = new PictureBox ();
+            CrystalZyrkUncommonGrounding.Size = new Size (58, 58);
+            CrystalZyrkUncommonGrounding.BorderStyle = BorderStyle.FixedSingle;
+            CrystalZyrkUncommonGrounding.Image = Image.FromFile (Application.StartupPath + "\\Resources\\" + "WepCrystal.png", true);
+            this.listView1.Controls.Add (CrystalZyrkUncommonGrounding);
         }
 
+        private void loadListView () {
 
+        }
+
+        private void generatePictureBoxItem () {
+
+        }
 
         #region Drag and Drop Processing (Drop)
         //
@@ -329,9 +343,10 @@ namespace DPS {
 
 
 
+        #region Drag and Drop Processing (Drag)
         private void pictureBox1_MouseDown (object sender, MouseEventArgs e) {
             pictureBox1.DoDragDrop (pictureBox1.Image, DragDropEffects.Copy | DragDropEffects.Move);
         }
-
+        #endregion Drag and Drop Processing (Drag)
     }
 }

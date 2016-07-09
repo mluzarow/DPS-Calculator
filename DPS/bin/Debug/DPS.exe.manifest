@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DPS.exe" size="40376">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DPS.exe" size="38840">
       <assemblyIdentity name="DPS" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KEnHUh1XYargTEQ8enLLNN4N882JomP6ELFiVf08JKg=</dsig:DigestValue>
+        <dsig:DigestValue>rd1gGry6/DGAgJzR4o8BRMQDLzsNZ2/5ROiXWvHt8LM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -69,6 +69,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="WepCrystal.png" size="7355">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Ec04352ogCPfuZ+k3Zwz0AF4oXYLCNLB8C6ZfOOGAk=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

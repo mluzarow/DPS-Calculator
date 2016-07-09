@@ -23,7 +23,6 @@
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent () {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fTeraMain));
             this.tbTeraMain = new System.Windows.Forms.TabControl();
             this.tbTeraMainCombat = new System.Windows.Forms.TabPage();
@@ -32,24 +31,6 @@
             this.tbTeraMainThereticals = new System.Windows.Forms.TabPage();
             this.pbEarring00 = new System.Windows.Forms.PictureBox();
             this.pbGemAcc03 = new System.Windows.Forms.PictureBox();
-            this.contMgemAcc03 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.addToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.zyrkToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.brilliantToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.balancingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cunningToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groundingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.swiftToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.threateningToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.carvingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.succoringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.powerfulToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.unyieldingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.relentlessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.standardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.vyrskToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.removeItemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pbWeapon = new System.Windows.Forms.PictureBox();
             this.pbGemAtt00 = new System.Windows.Forms.PictureBox();
             this.pbGemAtt01 = new System.Windows.Forms.PictureBox();
@@ -57,24 +38,6 @@
             this.pbGemAtt03 = new System.Windows.Forms.PictureBox();
             this.pbBoots = new System.Windows.Forms.PictureBox();
             this.pbGemAcc02 = new System.Windows.Forms.PictureBox();
-            this.contMgemAcc02 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem8 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem9 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem10 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem11 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem12 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem13 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem14 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripMenuItem15 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem16 = new System.Windows.Forms.ToolStripMenuItem();
             this.pbRing00 = new System.Windows.Forms.PictureBox();
             this.pbEarring01 = new System.Windows.Forms.PictureBox();
             this.pbGemAcc00 = new System.Windows.Forms.PictureBox();
@@ -98,11 +61,9 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listView1 = new System.Windows.Forms.ListView();
-            this.pbCrystalZyrkGreenGrounding = new System.Windows.Forms.PictureBox();
             this.tbTeraMain.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbEarring00)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAcc03)).BeginInit();
-            this.contMgemAcc03.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAtt00)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAtt01)).BeginInit();
@@ -110,7 +71,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAtt03)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBoots)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAcc02)).BeginInit();
-            this.contMgemAcc02.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbRing00)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEarring01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAcc00)).BeginInit();
@@ -128,7 +88,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbBelt)).BeginInit();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCrystalZyrkGreenGrounding)).BeginInit();
             this.SuspendLayout();
             // 
             // tbTeraMain
@@ -197,7 +156,6 @@
             // 
             this.pbGemAcc03.AllowDrop = true;
             this.pbGemAcc03.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbGemAcc03.ContextMenuStrip = this.contMgemAcc03;
             this.pbGemAcc03.Location = new System.Drawing.Point(12, 32);
             this.pbGemAcc03.Name = "pbGemAcc03";
             this.pbGemAcc03.Size = new System.Drawing.Size(30, 30);
@@ -205,133 +163,6 @@
             this.pbGemAcc03.TabStop = false;
             this.pbGemAcc03.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAcc03_DragDrop);
             this.pbGemAcc03.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAcc03_DragEnter);
-            // 
-            // contMgemAcc03
-            // 
-            this.contMgemAcc03.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addToolStripMenuItem,
-            this.removeItemToolStripMenuItem});
-            this.contMgemAcc03.Name = "contMgemAcc03";
-            this.contMgemAcc03.Size = new System.Drawing.Size(145, 48);
-            // 
-            // addToolStripMenuItem
-            // 
-            this.addToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.zyrkToolStripMenuItem,
-            this.toolStripSeparator1,
-            this.vyrskToolStripMenuItem});
-            this.addToolStripMenuItem.Name = "addToolStripMenuItem";
-            this.addToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.addToolStripMenuItem.Text = "Add";
-            // 
-            // zyrkToolStripMenuItem
-            // 
-            this.zyrkToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.brilliantToolStripMenuItem,
-            this.standardToolStripMenuItem});
-            this.zyrkToolStripMenuItem.Name = "zyrkToolStripMenuItem";
-            this.zyrkToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
-            this.zyrkToolStripMenuItem.Text = "Zyrk";
-            // 
-            // brilliantToolStripMenuItem
-            // 
-            this.brilliantToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.balancingToolStripMenuItem,
-            this.cunningToolStripMenuItem,
-            this.groundingToolStripMenuItem,
-            this.swiftToolStripMenuItem,
-            this.threateningToolStripMenuItem,
-            this.carvingToolStripMenuItem,
-            this.succoringToolStripMenuItem,
-            this.powerfulToolStripMenuItem,
-            this.unyieldingToolStripMenuItem,
-            this.relentlessToolStripMenuItem});
-            this.brilliantToolStripMenuItem.Name = "brilliantToolStripMenuItem";
-            this.brilliantToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.brilliantToolStripMenuItem.Text = "Uncommon";
-            // 
-            // balancingToolStripMenuItem
-            // 
-            this.balancingToolStripMenuItem.Name = "balancingToolStripMenuItem";
-            this.balancingToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.balancingToolStripMenuItem.Text = "Balancing";
-            // 
-            // cunningToolStripMenuItem
-            // 
-            this.cunningToolStripMenuItem.Name = "cunningToolStripMenuItem";
-            this.cunningToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.cunningToolStripMenuItem.Text = "Cunning";
-            // 
-            // groundingToolStripMenuItem
-            // 
-            this.groundingToolStripMenuItem.Name = "groundingToolStripMenuItem";
-            this.groundingToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.groundingToolStripMenuItem.Text = "Grounding";
-            // 
-            // swiftToolStripMenuItem
-            // 
-            this.swiftToolStripMenuItem.Name = "swiftToolStripMenuItem";
-            this.swiftToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.swiftToolStripMenuItem.Text = "Swift";
-            // 
-            // threateningToolStripMenuItem
-            // 
-            this.threateningToolStripMenuItem.Name = "threateningToolStripMenuItem";
-            this.threateningToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.threateningToolStripMenuItem.Text = "Threatening";
-            // 
-            // carvingToolStripMenuItem
-            // 
-            this.carvingToolStripMenuItem.Name = "carvingToolStripMenuItem";
-            this.carvingToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.carvingToolStripMenuItem.Text = "Carving";
-            // 
-            // succoringToolStripMenuItem
-            // 
-            this.succoringToolStripMenuItem.Name = "succoringToolStripMenuItem";
-            this.succoringToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.succoringToolStripMenuItem.Text = "Succoring";
-            // 
-            // powerfulToolStripMenuItem
-            // 
-            this.powerfulToolStripMenuItem.Name = "powerfulToolStripMenuItem";
-            this.powerfulToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.powerfulToolStripMenuItem.Text = "Powerful";
-            // 
-            // unyieldingToolStripMenuItem
-            // 
-            this.unyieldingToolStripMenuItem.Name = "unyieldingToolStripMenuItem";
-            this.unyieldingToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.unyieldingToolStripMenuItem.Text = "Unyielding";
-            // 
-            // relentlessToolStripMenuItem
-            // 
-            this.relentlessToolStripMenuItem.Name = "relentlessToolStripMenuItem";
-            this.relentlessToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.relentlessToolStripMenuItem.Text = "Relentless";
-            // 
-            // standardToolStripMenuItem
-            // 
-            this.standardToolStripMenuItem.Name = "standardToolStripMenuItem";
-            this.standardToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
-            this.standardToolStripMenuItem.Text = "Common";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(99, 6);
-            // 
-            // vyrskToolStripMenuItem
-            // 
-            this.vyrskToolStripMenuItem.Name = "vyrskToolStripMenuItem";
-            this.vyrskToolStripMenuItem.Size = new System.Drawing.Size(102, 22);
-            this.vyrskToolStripMenuItem.Text = "Vyrsk";
-            // 
-            // removeItemToolStripMenuItem
-            // 
-            this.removeItemToolStripMenuItem.Name = "removeItemToolStripMenuItem";
-            this.removeItemToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
-            this.removeItemToolStripMenuItem.Text = "Remove Item";
             // 
             // pbWeapon
             // 
@@ -409,7 +240,6 @@
             // 
             this.pbGemAcc02.AllowDrop = true;
             this.pbGemAcc02.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbGemAcc02.ContextMenuStrip = this.contMgemAcc02;
             this.pbGemAcc02.Location = new System.Drawing.Point(12, 250);
             this.pbGemAcc02.Name = "pbGemAcc02";
             this.pbGemAcc02.Size = new System.Drawing.Size(30, 30);
@@ -417,133 +247,6 @@
             this.pbGemAcc02.TabStop = false;
             this.pbGemAcc02.DragDrop += new System.Windows.Forms.DragEventHandler(this.pbGemAcc02_DragDrop);
             this.pbGemAcc02.DragEnter += new System.Windows.Forms.DragEventHandler(this.pbGemAcc02_DragEnter);
-            // 
-            // contMgemAcc02
-            // 
-            this.contMgemAcc02.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem16});
-            this.contMgemAcc02.Name = "contMgemAcc03";
-            this.contMgemAcc02.Size = new System.Drawing.Size(145, 48);
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripSeparator2,
-            this.toolStripMenuItem15});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(144, 22);
-            this.toolStripMenuItem1.Text = "Add";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem3,
-            this.toolStripMenuItem14});
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(102, 22);
-            this.toolStripMenuItem2.Text = "Zyrk";
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem4,
-            this.toolStripMenuItem5,
-            this.toolStripMenuItem6,
-            this.toolStripMenuItem7,
-            this.toolStripMenuItem8,
-            this.toolStripMenuItem9,
-            this.toolStripMenuItem10,
-            this.toolStripMenuItem11,
-            this.toolStripMenuItem12,
-            this.toolStripMenuItem13});
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem3.Text = "Uncommon";
-            // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem4.Text = "Balancing";
-            // 
-            // toolStripMenuItem5
-            // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem5.Text = "Cunning";
-            // 
-            // toolStripMenuItem6
-            // 
-            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem6.Text = "Grounding";
-            // 
-            // toolStripMenuItem7
-            // 
-            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem7.Text = "Swift";
-            // 
-            // toolStripMenuItem8
-            // 
-            this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem8.Text = "Threatening";
-            // 
-            // toolStripMenuItem9
-            // 
-            this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem9.Text = "Carving";
-            // 
-            // toolStripMenuItem10
-            // 
-            this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem10.Text = "Succoring";
-            // 
-            // toolStripMenuItem11
-            // 
-            this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem11.Text = "Powerful";
-            // 
-            // toolStripMenuItem12
-            // 
-            this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem12.Text = "Unyielding";
-            // 
-            // toolStripMenuItem13
-            // 
-            this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem13.Text = "Relentless";
-            // 
-            // toolStripMenuItem14
-            // 
-            this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(138, 22);
-            this.toolStripMenuItem14.Text = "Common";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(99, 6);
-            // 
-            // toolStripMenuItem15
-            // 
-            this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(102, 22);
-            this.toolStripMenuItem15.Text = "Vyrsk";
-            // 
-            // toolStripMenuItem16
-            // 
-            this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(144, 22);
-            this.toolStripMenuItem16.Text = "Remove Item";
             // 
             // pbRing00
             // 
@@ -789,22 +492,11 @@
             this.listView1.TabIndex = 27;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
-            // pbCrystalZyrkGreenGrounding
-            // 
-            this.pbCrystalZyrkGreenGrounding.AllowDrop = true;
-            this.pbCrystalZyrkGreenGrounding.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbCrystalZyrkGreenGrounding.Location = new System.Drawing.Point(349, 22);
-            this.pbCrystalZyrkGreenGrounding.Name = "pbCrystalZyrkGreenGrounding";
-            this.pbCrystalZyrkGreenGrounding.Size = new System.Drawing.Size(40, 40);
-            this.pbCrystalZyrkGreenGrounding.TabIndex = 28;
-            this.pbCrystalZyrkGreenGrounding.TabStop = false;
-            // 
             // fTeraMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(593, 554);
-            this.Controls.Add(this.pbCrystalZyrkGreenGrounding);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pbBelt);
@@ -838,7 +530,6 @@
             this.tbTeraMain.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbEarring00)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAcc03)).EndInit();
-            this.contMgemAcc03.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbWeapon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAtt00)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAtt01)).EndInit();
@@ -846,7 +537,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAtt03)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBoots)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAcc02)).EndInit();
-            this.contMgemAcc02.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbRing00)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbEarring01)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbGemAcc00)).EndInit();
@@ -865,7 +555,6 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCrystalZyrkGreenGrounding)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -908,44 +597,7 @@
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem returnToHomeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.ContextMenuStrip contMgemAcc03;
-        private System.Windows.Forms.ToolStripMenuItem addToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem zyrkToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem brilliantToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem balancingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cunningToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem groundingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem swiftToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem threateningToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem carvingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem succoringToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem powerfulToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem unyieldingToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem relentlessToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem standardToolStripMenuItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem vyrskToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem removeItemToolStripMenuItem;
-        private System.Windows.Forms.ContextMenuStrip contMgemAcc02;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem8;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem9;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem10;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem11;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem12;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem13;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem14;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem15;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem16;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.PictureBox pbCrystalZyrkGreenGrounding;
     }
 }
